@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &958422888709190027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 958422888709190025}
+  - component: {fileID: 958422888709190026}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &958422888709190025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958422888709190027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &958422888709190026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958422888709190027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899acf440e0d66d4194cb77f30e729cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuMusic
+    clip: {fileID: 8300000, guid: 42ed44a2a3b16b749983879602e51bcf, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 1
+    outputAudioMixerGroup: {fileID: 24300002, guid: d1340af54661bd043b248e8d0c9c04a1, type: 2}
+    source: {fileID: 0}
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 8396febfa88192d4d9bcc8b5f0796d61, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    outputAudioMixerGroup: {fileID: 24300002, guid: d1340af54661bd043b248e8d0c9c04a1, type: 2}
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: c1a154338e31c5d45bd227e3c66ee8b5, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    outputAudioMixerGroup: {fileID: 24300002, guid: d1340af54661bd043b248e8d0c9c04a1, type: 2}
+    source: {fileID: 0}
+  - name: Tap
+    clip: {fileID: 8300000, guid: c0b35725df2fc2f4b926b563c2cdf46e, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    outputAudioMixerGroup: {fileID: 24300002, guid: d1340af54661bd043b248e8d0c9c04a1, type: 2}
+    source: {fileID: 0}
+  - name: Whoosh
+    clip: {fileID: 8300000, guid: 144ce6686e5b96c4db4f47699ca6f7e9, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    outputAudioMixerGroup: {fileID: 24300002, guid: d1340af54661bd043b248e8d0c9c04a1, type: 2}
+    source: {fileID: 0}
